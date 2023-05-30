@@ -17,7 +17,8 @@
 }
 
 .card {
-  width: 400px;
+  width: 800px;
+  height: 350px;
   margin: auto;
   background: var(--color-background);
   padding: calc(4 * var(--size-bezel));
@@ -25,7 +26,6 @@
   padding: 0 20px 20px 20px;
   border-radius: var(--size-radius);
   border: 3px solid var(--color-shadow, currentColor);
-  box-shadow: 0.5rem 0.5rem 0 var(--color-shadow, currentColor);
 
   &--inverted {
     --color-background: var(--color-dark);
@@ -50,7 +50,8 @@
 }
 
 .input {
-  position: relative;
+  position: absolute;
+  margin: 200px 0px 0px -40px !important;
 
   &__label {
     position: absolute;
@@ -99,4 +100,15 @@
   align-content: center;
   justify-items: center;
   margin-bottom: 5rem;
+}
+
+.atm {
+  position: absolute;
+  margin: -15px 0px 0px -500px;
+}
+
+.teste{
+  position: absolute !important;
+  margin: 145px 0px 0px -200px !important;
+  font-size: 2.2rem !important;
 }

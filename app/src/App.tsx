@@ -18,8 +18,11 @@ function App() {
         <h1>Smart Notes</h1>
         <img src="./icon.png" width={100} className="logo" />
       </div>
+      <div>
+      <img src="./atm.png" width={400} className="atm" />
+      </div>
       <div className="card">
-        <h2>Digite quantos reais deseja calcular?</h2>
+        <span className='teste'>Digite quantos reais deseja calcular?</span>
         <label className="input">
           <span className="input__label">R$</span>
           <input
@@ -29,7 +32,6 @@ function App() {
           />
         </label>
       </div>
-
       <h2>Total de notas usadas: {totalNotes}</h2>
       <div className="notes-list">
         {parsedNotes.map(({ count, note }) => (
