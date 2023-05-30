@@ -22,10 +22,10 @@ function App() {
       <img src="./atm.png" width={400} className="atm" />
       </div>
       <div className="card">
-        <span className='teste'>Digite quantos reais deseja calcular?</span>
+        <span className='title'>Digite quantos reais deseja calcular?</span>
         <label className="input">
           <span className="input__label">R$</span>
-          <input
+          <input className='input_custom'
             type="number"
             placeholder="Quantidade"
             onChange={e => setInput(parseInt(e.target.value))}
