@@ -1,4 +1,4 @@
-# NomedoProjeto
+# Smart Notes
 
 **Número da Lista**: 31<br>
 **Conteúdo da Disciplina**: Greed<br>
