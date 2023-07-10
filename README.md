@@ -30,4 +30,4 @@ Pré-requisitos:
 [Link para o projeto](https://projeto-de-algoritmos.github.io/Greed_SmartNotes/)
 
 ## Video Explicação
-[Link para o video explicação](https://youtu.be/CN74R69Ni9g)
+[Link para o video explicação](./video_explicacao3.mp4)
